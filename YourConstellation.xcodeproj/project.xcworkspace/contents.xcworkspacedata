@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:LoginRegister.xcodeproj">
+      location = "self:/Users/lizhengxun/Desktop/NTOUCS/IOS/LoginRegister/YourConstellation.xcodeproj">
    </FileRef>
 </Workspace>

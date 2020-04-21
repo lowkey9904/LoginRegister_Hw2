@@ -3,20 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B1B91702448F5C600A8F09A /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B916F2448F5C600A8F09A /* RegisterView.swift */; };
+		3B8DB960244D5FCE003FE775 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8DB95F244D5FCE003FE775 /* HostingController.swift */; };
+		3B8DB962244D8477003FE775 /* ForgetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8DB961244D8477003FE775 /* ForgetPassword.swift */; };
+		3B8DB968244E286B003FE775 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8DB967244E286B003FE775 /* SafariView.swift */; };
 		3BEA50802446FD4900D75792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA507F2446FD4900D75792 /* AppDelegate.swift */; };
 		3BEA50822446FD4900D75792 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA50812446FD4900D75792 /* SceneDelegate.swift */; };
 		3BEA50842446FD4900D75792 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA50832446FD4900D75792 /* ContentView.swift */; };
 		3BEA50862446FD4D00D75792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA50852446FD4D00D75792 /* Assets.xcassets */; };
 		3BEA50892446FD4D00D75792 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA50882446FD4D00D75792 /* Preview Assets.xcassets */; };
 		3BEA508C2446FD4D00D75792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA508A2446FD4D00D75792 /* LaunchScreen.storyboard */; };
+		3BEA50942446FF8300D75792 /* ApiControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA50932446FF8300D75792 /* ApiControl.swift */; };
+		3BEA50962447007F00D75792 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA50952447007F00D75792 /* Struct.swift */; };
+		3BED7692244BA0E7002C2A7E /* PasswordModify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BED7691244BA0E7002C2A7E /* PasswordModify.swift */; };
+		3BFDB3E1244989B100594A7A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFDB3E0244989B100594A7A /* ProfileView.swift */; };
+		3BFDB3E42449ACC700594A7A /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 3BFDB3E32449ACC700594A7A /* URLImage */; };
+		3BFDB3E7244ADEB500594A7A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3BFDB3E6244ADEB500594A7A /* Alamofire */; };
+		3BFDB3E9244AE20E00594A7A /* PhotoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFDB3E8244AE20E00594A7A /* PhotoData.swift */; };
+		3BFDB3EB244AE4B100594A7A /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFDB3EA244AE4B100594A7A /* ImagePickerController.swift */; };
+		3BFDB3ED244B361900594A7A /* ProfileModify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFDB3EC244B361900594A7A /* ProfileModify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3BEA507C2446FD4900D75792 /* LoginRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1B916F2448F5C600A8F09A /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		3B8DB95F244D5FCE003FE775 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		3B8DB961244D8477003FE775 /* ForgetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPassword.swift; sourceTree = "<group>"; };
+		3B8DB967244E286B003FE775 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		3BEA507C2446FD4900D75792 /* YourConstellation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourConstellation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BEA507F2446FD4900D75792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BEA50812446FD4900D75792 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3BEA50832446FD4900D75792 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +41,13 @@
 		3BEA50882446FD4D00D75792 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3BEA508B2446FD4D00D75792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BEA508D2446FD4D00D75792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BEA50932446FF8300D75792 /* ApiControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiControl.swift; sourceTree = "<group>"; };
+		3BEA50952447007F00D75792 /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
+		3BED7691244BA0E7002C2A7E /* PasswordModify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordModify.swift; sourceTree = "<group>"; };
+		3BFDB3E0244989B100594A7A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3BFDB3E8244AE20E00594A7A /* PhotoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoData.swift; sourceTree = "<group>"; };
+		3BFDB3EA244AE4B100594A7A /* ImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		3BFDB3EC244B361900594A7A /* ProfileModify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModify.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFDB3E42449ACC700594A7A /* URLImage in Frameworks */,
+				3BFDB3E7244ADEB500594A7A /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +74,7 @@
 		3BEA507D2446FD4900D75792 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BEA507C2446FD4900D75792 /* LoginRegister.app */,
+				3BEA507C2446FD4900D75792 /* YourConstellation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +85,17 @@
 				3BEA507F2446FD4900D75792 /* AppDelegate.swift */,
 				3BEA50812446FD4900D75792 /* SceneDelegate.swift */,
 				3BEA50832446FD4900D75792 /* ContentView.swift */,
+				3B1B916F2448F5C600A8F09A /* RegisterView.swift */,
+				3B8DB961244D8477003FE775 /* ForgetPassword.swift */,
+				3BFDB3E0244989B100594A7A /* ProfileView.swift */,
+				3BFDB3EC244B361900594A7A /* ProfileModify.swift */,
+				3BED7691244BA0E7002C2A7E /* PasswordModify.swift */,
+				3BEA50932446FF8300D75792 /* ApiControl.swift */,
+				3BEA50952447007F00D75792 /* Struct.swift */,
+				3B8DB95F244D5FCE003FE775 /* HostingController.swift */,
+				3B8DB967244E286B003FE775 /* SafariView.swift */,
+				3BFDB3E8244AE20E00594A7A /* PhotoData.swift */,
+				3BFDB3EA244AE4B100594A7A /* ImagePickerController.swift */,
 				3BEA50852446FD4D00D75792 /* Assets.xcassets */,
 				3BEA508A2446FD4D00D75792 /* LaunchScreen.storyboard */,
 				3BEA508D2446FD4D00D75792 /* Info.plist */,
@@ -78,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3BEA507B2446FD4900D75792 /* LoginRegister */ = {
+		3BEA507B2446FD4900D75792 /* YourConstellation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BEA50902446FD4D00D75792 /* Build configuration list for PBXNativeTarget "LoginRegister" */;
+			buildConfigurationList = 3BEA50902446FD4D00D75792 /* Build configuration list for PBXNativeTarget "YourConstellation" */;
 			buildPhases = (
 				3BEA50782446FD4900D75792 /* Sources */,
 				3BEA50792446FD4900D75792 /* Frameworks */,
@@ -90,9 +127,13 @@
 			);
 			dependencies = (
 			);
-			name = LoginRegister;
+			name = YourConstellation;
+			packageProductDependencies = (
+				3BFDB3E32449ACC700594A7A /* URLImage */,
+				3BFDB3E6244ADEB500594A7A /* Alamofire */,
+			);
 			productName = LoginRegister;
-			productReference = 3BEA507C2446FD4900D75792 /* LoginRegister.app */;
+			productReference = 3BEA507C2446FD4900D75792 /* YourConstellation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +151,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3BEA50772446FD4900D75792 /* Build configuration list for PBXProject "LoginRegister" */;
+			buildConfigurationList = 3BEA50772446FD4900D75792 /* Build configuration list for PBXProject "YourConstellation" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,11 +160,15 @@
 				Base,
 			);
 			mainGroup = 3BEA50732446FD4900D75792;
+			packageReferences = (
+				3BFDB3E22449ACC700594A7A /* XCRemoteSwiftPackageReference "url-image" */,
+				3BFDB3E5244ADEB500594A7A /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 3BEA507D2446FD4900D75792 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BEA507B2446FD4900D75792 /* LoginRegister */,
+				3BEA507B2446FD4900D75792 /* YourConstellation */,
 			);
 		};
 /* End PBXProject section */
@@ -147,7 +192,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BEA50802446FD4900D75792 /* AppDelegate.swift in Sources */,
+				3BFDB3ED244B361900594A7A /* ProfileModify.swift in Sources */,
+				3BFDB3EB244AE4B100594A7A /* ImagePickerController.swift in Sources */,
 				3BEA50822446FD4900D75792 /* SceneDelegate.swift in Sources */,
+				3BEA50942446FF8300D75792 /* ApiControl.swift in Sources */,
+				3B8DB962244D8477003FE775 /* ForgetPassword.swift in Sources */,
+				3B8DB968244E286B003FE775 /* SafariView.swift in Sources */,
+				3B1B91702448F5C600A8F09A /* RegisterView.swift in Sources */,
+				3B8DB960244D5FCE003FE775 /* HostingController.swift in Sources */,
+				3BEA50962447007F00D75792 /* Struct.swift in Sources */,
+				3BFDB3E1244989B100594A7A /* ProfileView.swift in Sources */,
+				3BFDB3E9244AE20E00594A7A /* PhotoData.swift in Sources */,
+				3BED7692244BA0E7002C2A7E /* PasswordModify.swift in Sources */,
 				3BEA50842446FD4900D75792 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,7 +379,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BEA50772446FD4900D75792 /* Build configuration list for PBXProject "LoginRegister" */ = {
+		3BEA50772446FD4900D75792 /* Build configuration list for PBXProject "YourConstellation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BEA508E2446FD4D00D75792 /* Debug */,
@@ -332,7 +388,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BEA50902446FD4D00D75792 /* Build configuration list for PBXNativeTarget "LoginRegister" */ = {
+		3BEA50902446FD4D00D75792 /* Build configuration list for PBXNativeTarget "YourConstellation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BEA50912446FD4D00D75792 /* Debug */,
@@ -342,6 +398,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3BFDB3E22449ACC700594A7A /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.14;
+			};
+		};
+		3BFDB3E5244ADEB500594A7A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3BFDB3E32449ACC700594A7A /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BFDB3E22449ACC700594A7A /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		3BFDB3E6244ADEB500594A7A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BFDB3E5244ADEB500594A7A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3BEA50742446FD4900D75792 /* Project object */;
 }
