@@ -23,11 +23,14 @@ class ApiControl{
         URLSession.shared.dataTask(with: urlRequest) { (retData, res, err) in
             let decoder = JSONDecoder()
             if let retData = retData, let dic = try?decoder.decode([AllUserDec].self, from: retData), dic[0].status != ""{
-                for i in 0...dic.count {
+                for i in 0...dic.count - 1 {
                     if dic[i].profile.login == UserName && dic[i].profile.email == UserEmail{
                         completion(.success(dic[i].id))
                         print("Get ID:" + dic[i].id)
                         break
+                    }
+                    else{
+                        completion(.failure(NetworkError.Error))
                     }
                 }
             }else{
